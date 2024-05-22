@@ -14,6 +14,6 @@ services:
     ports:
       - "3001:3001"
     environment:
-      - MONGO_URL=mongodb+srv://kennie:869480Ak@cluster0.zkjbfkp.mongodb.net/
+      - MONGO_URL=
     depends_on:
       - mongo
